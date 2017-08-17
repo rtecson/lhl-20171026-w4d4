@@ -13,6 +13,13 @@
 		2A3DF5811F452BF600CF23D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3DF57F1F452BF600CF23D6 /* Main.storyboard */; };
 		2A3DF5831F452BF600CF23D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3DF5821F452BF600CF23D6 /* Assets.xcassets */; };
 		2A3DF5861F452BF600CF23D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3DF5841F452BF600CF23D6 /* LaunchScreen.storyboard */; };
+		2A3DF58F1F452C1B00CF23D6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF58E1F452C1B00CF23D6 /* Person.m */; };
+		2A3DF5921F4532E000CF23D6 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5911F4532E000CF23D6 /* Pet.m */; };
+		2A3DF5951F453CCC00CF23D6 /* W4D4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5931F453CCC00CF23D6 /* W4D4.xcdatamodeld */; };
+		2A3DF59E1F453FED00CF23D6 /* School+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5971F453FED00CF23D6 /* School+CoreDataClass.m */; };
+		2A3DF59F1F453FED00CF23D6 /* School+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5991F453FED00CF23D6 /* School+CoreDataProperties.m */; };
+		2A3DF5A01F453FED00CF23D6 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF59B1F453FED00CF23D6 /* Student+CoreDataClass.m */; };
+		2A3DF5A11F453FED00CF23D6 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF59D1F453FED00CF23D6 /* Student+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		2A3DF5821F452BF600CF23D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A3DF5851F452BF600CF23D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A3DF5871F452BF600CF23D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3DF58D1F452C1B00CF23D6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2A3DF58E1F452C1B00CF23D6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2A3DF5901F4532E000CF23D6 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		2A3DF5911F4532E000CF23D6 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		2A3DF5941F453CCC00CF23D6 /* W4D4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = W4D4.xcdatamodel; sourceTree = "<group>"; };
+		2A3DF5961F453FED00CF23D6 /* School+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "School+CoreDataClass.h"; path = "W4D4/School+CoreDataClass.h"; sourceTree = "<group>"; };
+		2A3DF5971F453FED00CF23D6 /* School+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "School+CoreDataClass.m"; path = "W4D4/School+CoreDataClass.m"; sourceTree = "<group>"; };
+		2A3DF5981F453FED00CF23D6 /* School+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "School+CoreDataProperties.h"; path = "W4D4/School+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2A3DF5991F453FED00CF23D6 /* School+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "School+CoreDataProperties.m"; path = "W4D4/School+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2A3DF59A1F453FED00CF23D6 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataClass.h"; path = "W4D4/Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		2A3DF59B1F453FED00CF23D6 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataClass.m"; path = "W4D4/Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		2A3DF59C1F453FED00CF23D6 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataProperties.h"; path = "W4D4/Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2A3DF59D1F453FED00CF23D6 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataProperties.m"; path = "W4D4/Student+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,14 @@
 		2A3DF56A1F452BF600CF23D6 = {
 			isa = PBXGroup;
 			children = (
+				2A3DF5961F453FED00CF23D6 /* School+CoreDataClass.h */,
+				2A3DF5971F453FED00CF23D6 /* School+CoreDataClass.m */,
+				2A3DF5981F453FED00CF23D6 /* School+CoreDataProperties.h */,
+				2A3DF5991F453FED00CF23D6 /* School+CoreDataProperties.m */,
+				2A3DF59A1F453FED00CF23D6 /* Student+CoreDataClass.h */,
+				2A3DF59B1F453FED00CF23D6 /* Student+CoreDataClass.m */,
+				2A3DF59C1F453FED00CF23D6 /* Student+CoreDataProperties.h */,
+				2A3DF59D1F453FED00CF23D6 /* Student+CoreDataProperties.m */,
 				2A3DF5751F452BF600CF23D6 /* W4D4 */,
 				2A3DF5741F452BF600CF23D6 /* Products */,
 			);
@@ -62,10 +90,15 @@
 				2A3DF57A1F452BF600CF23D6 /* AppDelegate.m */,
 				2A3DF57C1F452BF600CF23D6 /* ViewController.h */,
 				2A3DF57D1F452BF600CF23D6 /* ViewController.m */,
+				2A3DF58D1F452C1B00CF23D6 /* Person.h */,
+				2A3DF58E1F452C1B00CF23D6 /* Person.m */,
+				2A3DF5901F4532E000CF23D6 /* Pet.h */,
+				2A3DF5911F4532E000CF23D6 /* Pet.m */,
 				2A3DF57F1F452BF600CF23D6 /* Main.storyboard */,
 				2A3DF5821F452BF600CF23D6 /* Assets.xcassets */,
 				2A3DF5841F452BF600CF23D6 /* LaunchScreen.storyboard */,
 				2A3DF5871F452BF600CF23D6 /* Info.plist */,
+				2A3DF5931F453CCC00CF23D6 /* W4D4.xcdatamodeld */,
 				2A3DF5761F452BF600CF23D6 /* Supporting Files */,
 			);
 			path = W4D4;
@@ -152,8 +185,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A3DF57E1F452BF600CF23D6 /* ViewController.m in Sources */,
+				2A3DF5A11F453FED00CF23D6 /* Student+CoreDataProperties.m in Sources */,
+				2A3DF59F1F453FED00CF23D6 /* School+CoreDataProperties.m in Sources */,
 				2A3DF57B1F452BF600CF23D6 /* AppDelegate.m in Sources */,
+				2A3DF58F1F452C1B00CF23D6 /* Person.m in Sources */,
 				2A3DF5781F452BF600CF23D6 /* main.m in Sources */,
+				2A3DF5951F453CCC00CF23D6 /* W4D4.xcdatamodeld in Sources */,
+				2A3DF59E1F453FED00CF23D6 /* School+CoreDataClass.m in Sources */,
+				2A3DF5A01F453FED00CF23D6 /* Student+CoreDataClass.m in Sources */,
+				2A3DF5921F4532E000CF23D6 /* Pet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +356,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A3DF5931F453CCC00CF23D6 /* W4D4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A3DF5941F453CCC00CF23D6 /* W4D4.xcdatamodel */,
+			);
+			currentVersion = 2A3DF5941F453CCC00CF23D6 /* W4D4.xcdatamodel */;
+			path = W4D4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2A3DF56B1F452BF600CF23D6 /* Project object */;
 }
