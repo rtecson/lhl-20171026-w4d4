@@ -15,15 +15,15 @@
 		2A3DF5861F452BF600CF23D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3DF5841F452BF600CF23D6 /* LaunchScreen.storyboard */; };
 		2A3DF58F1F452C1B00CF23D6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF58E1F452C1B00CF23D6 /* Person.m */; };
 		2A3DF5921F4532E000CF23D6 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5911F4532E000CF23D6 /* Pet.m */; };
-		2A3DF5951F453CCC00CF23D6 /* W4D4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5931F453CCC00CF23D6 /* W4D4.xcdatamodeld */; };
-		2A3DF59E1F453FED00CF23D6 /* School+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5971F453FED00CF23D6 /* School+CoreDataClass.m */; };
-		2A3DF59F1F453FED00CF23D6 /* School+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5991F453FED00CF23D6 /* School+CoreDataProperties.m */; };
-		2A3DF5A01F453FED00CF23D6 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF59B1F453FED00CF23D6 /* Student+CoreDataClass.m */; };
-		2A3DF5A11F453FED00CF23D6 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF59D1F453FED00CF23D6 /* Student+CoreDataProperties.m */; };
+		2A3DF5951F453CCC00CF23D6 /* w4d4-demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DF5931F453CCC00CF23D6 /* w4d4-demo.xcdatamodeld */; };
+		2AAE2D1A1F9FA45100B1D6CB /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2D121F9FA45000B1D6CB /* Student+CoreDataClass.m */; };
+		2AAE2D1B1F9FA45100B1D6CB /* School+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2D151F9FA45000B1D6CB /* School+CoreDataClass.m */; };
+		2AAE2D1C1F9FA45100B1D6CB /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2D181F9FA45000B1D6CB /* Student+CoreDataProperties.m */; };
+		2AAE2D1D1F9FA45100B1D6CB /* School+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE2D191F9FA45100B1D6CB /* School+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A3DF5731F452BF600CF23D6 /* W4D4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W4D4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3DF5731F452BF600CF23D6 /* w4d4-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w4d4-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3DF5771F452BF600CF23D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A3DF5791F452BF600CF23D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A3DF57A1F452BF600CF23D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,15 +37,15 @@
 		2A3DF58E1F452C1B00CF23D6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2A3DF5901F4532E000CF23D6 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
 		2A3DF5911F4532E000CF23D6 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
-		2A3DF5941F453CCC00CF23D6 /* W4D4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = W4D4.xcdatamodel; sourceTree = "<group>"; };
-		2A3DF5961F453FED00CF23D6 /* School+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "School+CoreDataClass.h"; path = "W4D4/School+CoreDataClass.h"; sourceTree = "<group>"; };
-		2A3DF5971F453FED00CF23D6 /* School+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "School+CoreDataClass.m"; path = "W4D4/School+CoreDataClass.m"; sourceTree = "<group>"; };
-		2A3DF5981F453FED00CF23D6 /* School+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "School+CoreDataProperties.h"; path = "W4D4/School+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2A3DF5991F453FED00CF23D6 /* School+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "School+CoreDataProperties.m"; path = "W4D4/School+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2A3DF59A1F453FED00CF23D6 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataClass.h"; path = "W4D4/Student+CoreDataClass.h"; sourceTree = "<group>"; };
-		2A3DF59B1F453FED00CF23D6 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataClass.m"; path = "W4D4/Student+CoreDataClass.m"; sourceTree = "<group>"; };
-		2A3DF59C1F453FED00CF23D6 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataProperties.h"; path = "W4D4/Student+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2A3DF59D1F453FED00CF23D6 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataProperties.m"; path = "W4D4/Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2A3DF5941F453CCC00CF23D6 /* w4d4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = w4d4.xcdatamodel; sourceTree = "<group>"; };
+		2AAE2D121F9FA45000B1D6CB /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataClass.m"; path = "w4d4-demo/Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		2AAE2D131F9FA45000B1D6CB /* School+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "School+CoreDataProperties.h"; path = "w4d4-demo/School+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2AAE2D141F9FA45000B1D6CB /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataProperties.h"; path = "w4d4-demo/Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2AAE2D151F9FA45000B1D6CB /* School+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "School+CoreDataClass.m"; path = "w4d4-demo/School+CoreDataClass.m"; sourceTree = "<group>"; };
+		2AAE2D161F9FA45000B1D6CB /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataClass.h"; path = "w4d4-demo/Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		2AAE2D171F9FA45000B1D6CB /* School+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "School+CoreDataClass.h"; path = "w4d4-demo/School+CoreDataClass.h"; sourceTree = "<group>"; };
+		2AAE2D181F9FA45000B1D6CB /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataProperties.m"; path = "w4d4-demo/Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2AAE2D191F9FA45100B1D6CB /* School+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "School+CoreDataProperties.m"; path = "w4d4-demo/School+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +62,15 @@
 		2A3DF56A1F452BF600CF23D6 = {
 			isa = PBXGroup;
 			children = (
-				2A3DF5961F453FED00CF23D6 /* School+CoreDataClass.h */,
-				2A3DF5971F453FED00CF23D6 /* School+CoreDataClass.m */,
-				2A3DF5981F453FED00CF23D6 /* School+CoreDataProperties.h */,
-				2A3DF5991F453FED00CF23D6 /* School+CoreDataProperties.m */,
-				2A3DF59A1F453FED00CF23D6 /* Student+CoreDataClass.h */,
-				2A3DF59B1F453FED00CF23D6 /* Student+CoreDataClass.m */,
-				2A3DF59C1F453FED00CF23D6 /* Student+CoreDataProperties.h */,
-				2A3DF59D1F453FED00CF23D6 /* Student+CoreDataProperties.m */,
-				2A3DF5751F452BF600CF23D6 /* W4D4 */,
+				2AAE2D171F9FA45000B1D6CB /* School+CoreDataClass.h */,
+				2AAE2D151F9FA45000B1D6CB /* School+CoreDataClass.m */,
+				2AAE2D131F9FA45000B1D6CB /* School+CoreDataProperties.h */,
+				2AAE2D191F9FA45100B1D6CB /* School+CoreDataProperties.m */,
+				2AAE2D161F9FA45000B1D6CB /* Student+CoreDataClass.h */,
+				2AAE2D121F9FA45000B1D6CB /* Student+CoreDataClass.m */,
+				2AAE2D141F9FA45000B1D6CB /* Student+CoreDataProperties.h */,
+				2AAE2D181F9FA45000B1D6CB /* Student+CoreDataProperties.m */,
+				2A3DF5751F452BF600CF23D6 /* w4d4-demo */,
 				2A3DF5741F452BF600CF23D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,12 +78,12 @@
 		2A3DF5741F452BF600CF23D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A3DF5731F452BF600CF23D6 /* W4D4.app */,
+				2A3DF5731F452BF600CF23D6 /* w4d4-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A3DF5751F452BF600CF23D6 /* W4D4 */ = {
+		2A3DF5751F452BF600CF23D6 /* w4d4-demo */ = {
 			isa = PBXGroup;
 			children = (
 				2A3DF5791F452BF600CF23D6 /* AppDelegate.h */,
@@ -98,10 +98,10 @@
 				2A3DF5821F452BF600CF23D6 /* Assets.xcassets */,
 				2A3DF5841F452BF600CF23D6 /* LaunchScreen.storyboard */,
 				2A3DF5871F452BF600CF23D6 /* Info.plist */,
-				2A3DF5931F453CCC00CF23D6 /* W4D4.xcdatamodeld */,
+				2A3DF5931F453CCC00CF23D6 /* w4d4-demo.xcdatamodeld */,
 				2A3DF5761F452BF600CF23D6 /* Supporting Files */,
 			);
-			path = W4D4;
+			path = "w4d4-demo";
 			sourceTree = "<group>";
 		};
 		2A3DF5761F452BF600CF23D6 /* Supporting Files */ = {
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A3DF5721F452BF600CF23D6 /* W4D4 */ = {
+		2A3DF5721F452BF600CF23D6 /* w4d4-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A3DF58A1F452BF600CF23D6 /* Build configuration list for PBXNativeTarget "W4D4" */;
+			buildConfigurationList = 2A3DF58A1F452BF600CF23D6 /* Build configuration list for PBXNativeTarget "w4d4-demo" */;
 			buildPhases = (
 				2A3DF56F1F452BF600CF23D6 /* Sources */,
 				2A3DF5701F452BF600CF23D6 /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = W4D4;
+			name = "w4d4-demo";
 			productName = W4D4;
-			productReference = 2A3DF5731F452BF600CF23D6 /* W4D4.app */;
+			productReference = 2A3DF5731F452BF600CF23D6 /* w4d4-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 		2A3DF56B1F452BF600CF23D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "MoozX Internet Ventures";
 				TargetAttributes = {
 					2A3DF5721F452BF600CF23D6 = {
@@ -148,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A3DF56E1F452BF600CF23D6 /* Build configuration list for PBXProject "W4D4" */;
+			buildConfigurationList = 2A3DF56E1F452BF600CF23D6 /* Build configuration list for PBXProject "w4d4-demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -161,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A3DF5721F452BF600CF23D6 /* W4D4 */,
+				2A3DF5721F452BF600CF23D6 /* w4d4-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -184,15 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AAE2D1A1F9FA45100B1D6CB /* Student+CoreDataClass.m in Sources */,
 				2A3DF57E1F452BF600CF23D6 /* ViewController.m in Sources */,
-				2A3DF5A11F453FED00CF23D6 /* Student+CoreDataProperties.m in Sources */,
-				2A3DF59F1F453FED00CF23D6 /* School+CoreDataProperties.m in Sources */,
 				2A3DF57B1F452BF600CF23D6 /* AppDelegate.m in Sources */,
 				2A3DF58F1F452C1B00CF23D6 /* Person.m in Sources */,
+				2AAE2D1C1F9FA45100B1D6CB /* Student+CoreDataProperties.m in Sources */,
 				2A3DF5781F452BF600CF23D6 /* main.m in Sources */,
-				2A3DF5951F453CCC00CF23D6 /* W4D4.xcdatamodeld in Sources */,
-				2A3DF59E1F453FED00CF23D6 /* School+CoreDataClass.m in Sources */,
-				2A3DF5A01F453FED00CF23D6 /* Student+CoreDataClass.m in Sources */,
+				2AAE2D1B1F9FA45100B1D6CB /* School+CoreDataClass.m in Sources */,
+				2AAE2D1D1F9FA45100B1D6CB /* School+CoreDataProperties.m in Sources */,
+				2A3DF5951F453CCC00CF23D6 /* w4d4-demo.xcdatamodeld in Sources */,
 				2A3DF5921F4532E000CF23D6 /* Pet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +229,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -237,7 +239,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -278,7 +284,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -286,7 +294,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -316,9 +328,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q9N5PH89AB;
-				INFOPLIST_FILE = W4D4/Info.plist;
+				INFOPLIST_FILE = "w4d4-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.moozx.W4D4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moozx.w4d4-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -328,9 +340,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q9N5PH89AB;
-				INFOPLIST_FILE = W4D4/Info.plist;
+				INFOPLIST_FILE = "w4d4-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.moozx.W4D4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moozx.w4d4-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -338,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A3DF56E1F452BF600CF23D6 /* Build configuration list for PBXProject "W4D4" */ = {
+		2A3DF56E1F452BF600CF23D6 /* Build configuration list for PBXProject "w4d4-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A3DF5881F452BF600CF23D6 /* Debug */,
@@ -347,24 +359,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A3DF58A1F452BF600CF23D6 /* Build configuration list for PBXNativeTarget "W4D4" */ = {
+		2A3DF58A1F452BF600CF23D6 /* Build configuration list for PBXNativeTarget "w4d4-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A3DF58B1F452BF600CF23D6 /* Debug */,
 				2A3DF58C1F452BF600CF23D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2A3DF5931F453CCC00CF23D6 /* W4D4.xcdatamodeld */ = {
+		2A3DF5931F453CCC00CF23D6 /* w4d4-demo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2A3DF5941F453CCC00CF23D6 /* W4D4.xcdatamodel */,
+				2A3DF5941F453CCC00CF23D6 /* w4d4.xcdatamodel */,
 			);
-			currentVersion = 2A3DF5941F453CCC00CF23D6 /* W4D4.xcdatamodel */;
-			path = W4D4.xcdatamodeld;
+			currentVersion = 2A3DF5941F453CCC00CF23D6 /* w4d4.xcdatamodel */;
+			path = "w4d4-demo.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

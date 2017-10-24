@@ -105,6 +105,18 @@
     NSFetchRequest<Student *> *fetchStudentsRequest = [Student fetchRequest];
     self.students = [persistentContainer.viewContext executeFetchRequest:fetchStudentsRequest error:&error];
     
+//    // Create school managed object
+//    School *school = [[School alloc] initWithContext:persistentContainer.viewContext];
+//    school.name = @"Lighthouse Labs";
+//    [appDelegate saveContext];
+//
+//    // Create student managed object
+//    Student *student = [[Student alloc] initWithContext:persistentContainer.viewContext];
+//    student.name = @"Joe Smith";
+//    [student addSchoolObject:self.schools[0]];
+//    [self.schools[0] addStudentObject:student];
+//    [appDelegate saveContext];
+    
 //    // View school objects
 //    if (self.schools.count > 0) {
 //        NSLog(@"schools[0].name = %@", self.schools[0].name);
@@ -113,18 +125,6 @@
 //            NSLog(@"student.name = %@", student.name);
 //        }
 //    }
-    
-//    // Create school managed object
-//    School *school = [[School alloc] initWithContext:persistentContainer.viewContext];
-//    school.name = @"Lighthouse Labs";
-//    [appDelegate saveContext];
-
-//    // Create student managed object
-//    Student *student = [[Student alloc] initWithContext:persistentContainer.viewContext];
-//    student.name = @"Joe Smith";
-//    [student addSchoolObject:self.schools[0]];
-//    [self.schools[0] addStudentObject:student];
-//    [appDelegate saveContext];
 }
 
 
