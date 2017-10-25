@@ -1,9 +1,9 @@
 //
 //  Pet.h
-//  W4D4
+//  w4d4-demo
 //
-//  Created by Roland on 2017-08-16.
-//  Copyright © 2017 MoozX Internet Ventures. All rights reserved.
+//  Created by Roland on 2017-10-26.
+//  Copyright © 2017 Roland Tecson. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
