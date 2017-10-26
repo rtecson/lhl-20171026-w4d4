@@ -185,6 +185,7 @@
 //    // Create student managed object
 //    Student *student = [[Student alloc] initWithContext:persistentContainer.viewContext];
 //    student.name = @"Joe Smith";
+//    student.age = 25;
 //    [student addSchoolObject:self.schools[0]];
 //    [self.schools[0] addStudentObject:student];
 //    [appDelegate saveContext];
